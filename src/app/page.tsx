@@ -134,7 +134,6 @@ export default function Home() {
                     <p className="whitespace-nowrap">
                       {format(parseISO(d.dt_txt), "h:mm a")}
                     </p>
-
                     {/* <WeatherIcon iconName={d.weather[0].icon} /> */}
                     <WeatherIcon
                       iconName={getDayOrNightIcon(d.weather[0].icon, d.dt_txt)}
@@ -163,7 +162,7 @@ export default function Home() {
             {/* right */}
             <Container className="bg-green-300/80 px-6 gap-4 justify-between overflow-x-auto">
               <WeatherDetails
-                visibility={metersToKilometers(firstData?.visibility ?? 10000)}
+                visability={metersToKilometers(firstData?.visibility ?? 10000)}
                 humidity={`${firstData?.main.humidity}%`}
                 airPressure={`${firstData?.main.pressure}hPa`}
                 sunrise={format(
