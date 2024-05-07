@@ -72,7 +72,7 @@ export default function Home() {
     "repoData",
     async () => {
       const { data } = await axios.get(
-        `http://api.openweathermap.org/data/2.5/forecast?q=Kenitra,ma&APPID=${process.env.NEXT_PUBLIC_WEATHER_KEY}&cnt=56`
+        `https://api.openweathermap.org/data/2.5/forecast?q=Kenitra,ma&APPID=${process.env.NEXT_PUBLIC_WEATHER_KEY}&cnt=56`
       );
       return data;
     }
