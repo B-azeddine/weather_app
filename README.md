@@ -23,8 +23,8 @@ The project was made with :
 
 ## Features : 
 - Showing the : visability - humidity - winSpeed - Air Pressure - Sunrise - Sunset of `Today` and for the next `7 Days` .
-- Using the search bar to look for the suitable location with handling errors typing .
-- Using the current Geolocalisation of the user (with his permission) so he can back to his position without retyping the city .
+- Using the `search bar` to look for the suitable location , handling errors typing .
+- Using the `current Geolocalisation` of the user (with his permission) so he can back to his position without retyping the city .
 
-## RESPONSIVNESS 
+## RESPONSIVENESS 
 - i make sure that my project is responsive working on the mobile version first .
