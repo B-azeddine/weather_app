@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## <p align="center">The Weather App ⛅</p>
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000)  (or your preferred port )with your browser to see the result if you clone the project .
 
 ## Deploy on Vercel
+Open [https://weather-app-five-tau-36.vercel.app/]([http://localhost:3000](https://weather-app-five-tau-36.vercel.app/)) with your browser to see the result using the hosted version.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## <p align="center">Project Overview 💡</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project mainly shows the weather of a selected location with a several features  .
+The project was made with :
+  `NextJS`, `TypeScript`,
+  `TanStack Query` (React Query), `Axios`,
+  `Jotai`, `Date-fns` & `React Icons`.
+
+## Features : 
+- Showing the : visability - humidity - winSpeed - Air Pressure - Sunrise - Sunset of `Today` and for the next `7 Days` .
+- Using the search bar to look for the siuitable location with handling errors typing .
+- Using the current Geolocalisation of the user (with his permission) so he can back to his position without retyping the city .
+
+## RESPONSIVNESS 
+- i make sure that my project is responsive working on the mobile version first .
