@@ -16,13 +16,14 @@ Open [https://weather-app-five-tau-36.vercel.app/]([http://localhost:3000](https
 
 This project mainly shows the weather of a selected location with a several features  .
 The project was made with :
+
   `NextJS`, `TypeScript`,
   `TanStack Query` (React Query), `Axios`,
   `Jotai`, `Date-fns` & `React Icons`.
 
 ## Features : 
 - Showing the : visability - humidity - winSpeed - Air Pressure - Sunrise - Sunset of `Today` and for the next `7 Days` .
-- Using the search bar to look for the siuitable location with handling errors typing .
+- Using the search bar to look for the suitable location with handling errors typing .
 - Using the current Geolocalisation of the user (with his permission) so he can back to his position without retyping the city .
 
 ## RESPONSIVNESS 
